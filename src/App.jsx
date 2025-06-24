@@ -1,12 +1,17 @@
-import { useState } from 'react';
+import PageHeader from './Components/PageHeader';
+import Field from './Components/Field';
 
 function App() {
-	const [count, setCount] = useState(0);
+
 
 	return (
 		<>
-           Count: {count}
-		</>
+            <PageHeader />
+
+            <Field />
+
+
+        </>
 	);
 }
 
