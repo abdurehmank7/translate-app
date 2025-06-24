@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Field() {
+function SentenceField() {
 	const [sentence, setSentence] = useState('');
 
 	const handleInputChange = (event) => {
@@ -16,7 +16,7 @@ function Field() {
 	return (
 		<div className="mb-4 ml-auto mr-auto">
 			<form onSubmit={handleFormSubmit} className='max-w-md mx-auto p-4 bg-white rounded shadow'>
-                <div>
+                <div className='shadow'>
 
                     <label htmlFor="sentence" className="block font-semibold mb-1">Enter English</label>
                     <input
@@ -36,4 +36,4 @@ function Field() {
 	);
 }
 
-export default Field;
+export default SentenceField;

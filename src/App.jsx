@@ -1,17 +1,16 @@
-import PageHeader from './Components/PageHeader';
-import Field from './Components/Field';
+import React from 'react';
+
+import PageHeader from './Components/PageHeader.jsx';
+import SentenceField from './Components/Field.jsx';
+
 
 function App() {
-
-
 	return (
-		<>
-            <PageHeader />
-
-            <Field />
-
-
-        </>
+		<div>
+			<PageHeader />
+			<SentenceField />
+			
+		</div>
 	);
 }
 
